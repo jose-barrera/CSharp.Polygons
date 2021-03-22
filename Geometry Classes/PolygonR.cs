@@ -60,5 +60,25 @@ namespace Polygons
         }
 
         #endregion
+
+        #region PUBLIC OVERRIDEN METHODS
+
+        /// <summary>
+        /// 
+        /// Moves the polygon to another position.
+        /// 
+        /// </summary>
+        /// <param name="dx">Horizontal displacement.</param>
+        /// <param name="dy">Vertical displacement.</param>
+        public override void Translate(int dx, int dy)
+        {
+            base.Translate(dx, dy);
+            // This implementation stores its centroid instead of
+            // calculates it, so when this polygon moves, its 
+            // centroid also moves.
+            this.centroid.Translate(dx, dy);
+        }
+
+        #endregion
     }
 }

@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Geometry Classes\Decagon.cs" />
-    <Compile Include="Geometry Classes\Dodecagon.cs" />
+    <Compile Include="Geometry Classes\DecagonR.cs" />
+    <Compile Include="Geometry Classes\DodecagonR.cs" />
     <Compile Include="InfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="Geometry Classes\HeptagonR.cs" />
     <Compile Include="Geometry Classes\HexagonR.cs" />
-    <Compile Include="Geometry Classes\Octagon.cs" />
+    <Compile Include="Geometry Classes\OctagonR.cs" />
     <Compile Include="Geometry Classes\PentagonR.cs" />
     <Compile Include="Geometry Classes\Point.cs" />
     <Compile Include="Geometry Classes\Polygon.cs" />

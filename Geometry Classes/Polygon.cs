@@ -203,7 +203,7 @@ namespace Polygons
         /// </summary>
         /// <param name="dx">Horizontal displacement.</param>
         /// <param name="dy">Vertical displacement.</param>
-        public void Translate(int dx, int dy)
+        public virtual void Translate(int dx, int dy)
         {
             foreach(Point point in this.vertices)
             {
