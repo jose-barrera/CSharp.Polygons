@@ -22,8 +22,8 @@ namespace Polygons
         /// Builds a regular polygon of n sides using a center point and first vertex.
         /// 
         /// </summary>
-        /// <param name="center">Center point of the hexagon.</param>
-        /// <param name="vertex">First vertex of the hexagon.</param>
+        /// <param name="center">Center point of the polygon.</param>
+        /// <param name="vertex">First vertex of the polygon.</param>
         /// <param name="sides">Number of sides of the polygon.</param>
         public PolygonR(Point center, Point vertex, int sides)
         {
