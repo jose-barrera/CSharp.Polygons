@@ -14,8 +14,8 @@
         /// Builds a rectangle using two points that represents its diagonal.
         /// 
         /// </summary>
-        /// <param name="A">Paint A of the diagonal.</param>
-        /// <param name="B">Paint B of the diagonal.</param>
+        /// <param name="A">Point A of the diagonal.</param>
+        /// <param name="B">Point B of the diagonal.</param>
         public Rectangle(Point A, Point B)
         {
             this.vertices.Add(A);
